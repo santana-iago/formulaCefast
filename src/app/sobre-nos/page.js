@@ -1,7 +1,8 @@
-import React from 'react';
+'use client'
 import Image from 'next/image';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookF, faInstagram, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css";
+import SimpleSlider from './carousel';
 
 export default function AboutPage() {
   return (
@@ -56,6 +57,9 @@ export default function AboutPage() {
       <section className="bg-gray-100 py-16 px-4 md:px-16 lg:px-32">
         <h2 className="text-4xl font-bold mb-6 text-center">Veja um pouco da nossa história</h2>
         <div className="w-full max-w-5xl mx-auto">
+        <SimpleSlider>
+          
+        </SimpleSlider>
         </div>
       </section>
     </div>

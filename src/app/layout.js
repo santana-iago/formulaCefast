@@ -1,13 +1,9 @@
-import "../app/styles/globals.css";
-import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
-import Navbar from "../components/Navbar";
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import "../app/styles/globals.css";
 import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
 import Scroll from "../components/SmoothScroll";
-import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/css/autoplay';
-
 
 config.autoAddCss = false;
 
