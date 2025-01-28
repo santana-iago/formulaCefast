@@ -1,6 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import 'swiper/css';
+@import 'swiper/css/pagination';
+@import 'swiper/css/autoplay';
+
+
 
 /* Estilo básico para garantir posicionamento adequado da Navbar e do Footer */
 html,
@@ -22,4 +27,14 @@ body {
 
 main {
   flex: 1; /* Faz o conteúdo principal ocupar o espaço disponível */
+}
+
+/* Remover scrollbar visível */
+div::-webkit-scrollbar {
+  display: none; /* Remove no Chrome, Edge e Safari */
+}
+
+div {
+  -ms-overflow-style: none; /* Remove no IE e Edge */
+  scrollbar-width: none; /* Remove no Firefox */
 }

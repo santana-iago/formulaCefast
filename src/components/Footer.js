@@ -3,8 +3,8 @@ import Image from 'next/image';
 
 function Footer() {
   return (
-    <footer className="text-white py-16 px-8 bg-[#1C2737]">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+    <footer className="text-white py-10 px-8 bg-[#1C2737]">
+      <div className="max-w-8xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         {/* Logo e Slogan */}
         <div className="flex flex-col items-center">
           <Image
@@ -87,11 +87,11 @@ function Footer() {
       </div>
 
       {/* Linha de Separação e Copyright */}
-      <div className="border-t border-gray-600 mt-12 pt-6 flex flex-col sm:flex-row justify-between items-center text-sm">
-        <p className="text-center sm:text-left mt-2 sm:mt-0">
+      <div className="border-t border-gray-600 mt-8 pt-6 flex flex-col sm:flex-row justify-between items-center text-sm">
+        <p className="text-center sm:text-left mt-0 sm:mt-0">
           Projeto e Execução: Iago Santana
         </p>
-        <p className="text-center sm:text-right mt-2 sm:mt-0">
+        <p className="text-center sm:text-right mt-0 sm:mt-0">
           © 2024 Todos os direitos reservados
         </p>
       </div>
